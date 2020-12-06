@@ -1,8 +1,5 @@
 import 'dart:io';
 import 'dart:convert';
-import 'package:args/args.dart';
-
-ArgResults argResults;
 
 void bump(String bumpType, String message) {
   final pubspecFile = File('pubspec.yaml');
